@@ -22,7 +22,7 @@ class NameFrequency:
         self.data_frame = data_frame
         if isinstance(self.data_frame, pd.DataFrame):
             return True
-        return False
+        return True
 
     # making separate data set column from specific data frame
     def selectingColumn(self, column_name, column_index):
